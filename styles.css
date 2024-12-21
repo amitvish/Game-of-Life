@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3d3d3; /* Light grey background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 20px 0;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #gameCanvas {
+    border: 1px solid #000;
+    background-color: #d3d3d3; /* Matches body background */
+  }
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(15, 67, 115); /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(87, 119, 156); /* Darker blue on hover */
+  }
+    
